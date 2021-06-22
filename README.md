@@ -21,10 +21,10 @@
     <a href="https://github.com/danielmeloalencar/vue-js-pokemon-api/issues">Request Feature</a>
   </p>
   
-![product-screenshot]
+<img src='screenshot.jpg' />
 </p>
 
-[product-screenshot]: screenshot.jpg
+
 
 ### Installation
 
