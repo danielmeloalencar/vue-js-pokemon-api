@@ -21,7 +21,7 @@
     <a href="https://github.com/danielmeloalencar/vue-js-pokemon-api/issues">Request Feature</a>
   </p>
   
-<img src='screenshot.jpg' />
+<img src='https://raw.githubusercontent.com/danielmeloalencar/vue-js-pokemon-api/master/screenshot.jpg' />
 </p>
 
 
