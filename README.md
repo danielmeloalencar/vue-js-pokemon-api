@@ -1,29 +1,42 @@
-# pokemon
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="src/assets/pokemon-logo.png" alt="Logo" width="450" height="150">
+  </a>
 
-## Project setup
-```
-npm install
-```
+  <h3 align="center">VueJS PokeAPI Example</h3>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://pokeapi.co/docs/v2"><strong>Explore the PokeApi docs »</strong></a>
+    ·
+    <a href="https://element.eleme.io/?ref=madewithvuejs.com#/en-US/component/installation"><strong>Explore the Element UI docs »</strong></a>
+    ·
+    <a href="https://vuejs.org/v2/guide/"><strong>Explore the VueJS docs »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/danielmeloalencar/vue-js-pokemon-api/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/danielmeloalencar/vue-js-pokemon-api/issues">Request Feature</a>
+  </p>
+  
+![product-screenshot]
+</p>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[product-screenshot]: screenshot.jpg
 
-### Run your unit tests
-```
-npm run test:unit
-```
+### Installation
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Clone the repo
+   ```sh
+   git clone https://github.com/danielmeloalencar/vue-js-pokemon-api.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run
+   ```sh
+   npm run serve
+   ```
