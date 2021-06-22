@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/danielmeloalencar/vue-js-pokemon-api/raw/master/src/assets/pokemon-logo.png" alt="Logo" width="450" height="150">
+    <img src="https://raw.githubusercontent.com/danielmeloalencar/vue-js-pokemon-api/master/src/assets/pokemon-logo.png" alt="Logo" width="450" height="150">
   </a>
 
   <h3 align="center">VueJS PokeAPI Example</h3>
