@@ -1,7 +1,11 @@
-import axios from 'axios'
+import AxiosInstance from '@/config/axios'
+ 
+export const getPokeList = (size=151) =>{
+   return AxiosInstance.get(`pokemon?limit=${size}`)
+}
 
-const pokeAPI = axios.create({
-    baseURL:'https://pokeapi.co/api/v2/'
-})
-
-export default pokeAPI;
+export const getPokemon = (id) =>{
+    return AxiosInstance.get(`pokemon/${id}`)
+ }
+ 
+ 

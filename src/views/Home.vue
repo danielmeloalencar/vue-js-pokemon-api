@@ -53,7 +53,7 @@
 import ListaPokemons from "@/components/listaPokemons";
 import Footer from "@/components/footer";
 import Progresso from "@/components/progresso";
-import pokemonApi from "@/services/pokemonApi";
+import { getPokemon } from "@/services/pokemonApi";
 
 export default {
   name: "Home",
@@ -65,7 +65,11 @@ export default {
 
   data() {
     return {
-      pokemon: [],
+      pokemon: {
+        name: "",
+        sprites: {},
+        species: {},
+      },
       etapa: 0,
       carregando: false,
     };
@@ -74,12 +78,13 @@ export default {
     selecionouPokemon: function (pokemon) {
       this.carregando = true;
       this.etapa = 2;
-      pokemonApi.get(`pokemon/${pokemon}`).then((response) => {
-        this.pokemon = response.data;
-        console.log(this.pokemon);
-
+      try {
+        getPokemon(pokemon).then((response) => (this.pokemon = response.data));
+      } catch {
+        alert("Não foi possível obter as informações do servidor");
+      } finally {
         this.carregando = false;
-      });
+      }
     },
   },
 };

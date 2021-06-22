@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import pokemonApi from "@/services/pokemonApi";
+import {getPokeList} from "@/services/pokemonApi";
 export default {
   data() {
     return {
@@ -52,8 +52,7 @@ export default {
   },
 
   mounted() {
-    pokemonApi
-      .get("pokemon?limit=151")
+   getPokeList(151)
       .then((response) => (this.pokemons = response.data.results));
   }
   
