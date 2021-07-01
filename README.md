@@ -14,7 +14,7 @@
     ·
     <a href="https://vuejs.org/v2/guide/"><strong>Explore the VueJS docs »</strong></a>
     <br />
-    <br />
+   
     ·
     <a href="https://github.com/danielmeloalencar/vue-js-pokemon-api/issues">Report Bug</a>
     ·
